@@ -1,0 +1,82 @@
+#welcome {
+    background-color: #94f0f1;
+    font-weight: bolder;
+    font-size: 70px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+ #instructions {
+    font-style: italic;
+    background-color: #f2b1d8;
+    font-size: 20px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+    font-family: monospace;
+}
+
+#line {
+    padding-top: 5px;
+    margin-top: 20px;
+    width: 90%;
+    background-color: #ffdc6a;
+    margin-bottom: 20px;
+}
+
+label * {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+}
+
+.memes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.memes div {
+    width: 400px;
+    height: auto;
+    margin: 10px 10px;
+}
+
+.memes div>div:not(:last-child) {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: White;
+    font-weight: bolder;
+    text-shadow: -1px -1px 0 #000, -1px -1px 0 #000, -1px -1px 0 #000, -1px -1px 0 #000;
+}
+
+.memes div img {
+    width: 100%;
+    border: 1px solid black;
+}
+
+.memes div :last-child {
+    color: transparent;
+    font-size: 200px;
+}
+
+.memes div div:last-child:hover{
+    color: red;
+}

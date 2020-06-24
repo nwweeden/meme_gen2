@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make a Meme!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id = 'welcome'>
+        Make a Meme!
+    </div>
+    <div id = 'instructions'>
+        Fill out the form to create a custom Meme
+    </div>
+    <form action="" >
+        <p>
+            <label> Image URL:
+                <input type="text" class = "url" placeholder="Copy paste the image url" >
+            </label>
+        </p>
+        <p>
+            <label>Text on Top:
+                <input type = 'text' class='topText' placeholder="Type the text to appear at the top of the meme (optional)">
+            </label>
+        </p>
+        <p>
+            <label>Text on Bottom:
+                <input type='text' class='bottomText' placeholder="Type the text to appear at the bottom of the meme (optional)">
+            </label>
+        </p>
+        <input type="submit">
+    </form>
+    <div id ='line'></div>
+    <div class = "memes">
+ 
+    </div>
+    <script src = "script.js"></script>
+</body>
+</html>
